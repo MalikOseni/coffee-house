@@ -271,7 +271,7 @@ section {
   color: #fff;
   font-weight: 700;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-  padding: 1rem 0;
+  padding: 2rem 0;
   line-height: 1;
   letter-spacing: 0.3rem;
   -webkit-animation: fadeIn 0.4s cubic-bezier(0.54, 1.3, 0.63, 1.34) 0.4s backwards;
@@ -724,7 +724,8 @@ section {
 
 .tBox,
 .cta {
-  border: none;
+  border: none !important;
+  border-radius: none !important;
   outline: none;
 }
 
@@ -737,12 +738,12 @@ section {
 .mail:hover > .tBox,
 .tBox:focus {
   width: 260px;
-  padding: 0 10px;
+  padding: 0 11px;
 }
 
 .cta {
   background: #c19c70;
-  padding: 0 0.4rem;
+  padding: 0 0.5rem;
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
@@ -839,13 +840,13 @@ section {
 
 .footer .icons-conatiner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
   gap: 1rem;
 }
 
 .footer .icons-conatiner .icons {
   text-align: center;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .footer .icons-conatiner .icons i {
@@ -877,7 +878,7 @@ section {
 
 .footer .share a img {
   filter: grayscale(1);
-  width: 2rem;
+  width: 1.7rem;
   margin: 0 1.5rem;
   transition: 0.2s ease;
 }
@@ -944,6 +945,6 @@ section {
     font-size: 9vw;
   }
   .footer .icons-conatiner {
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
 }/*# sourceMappingURL=main.css.map */
